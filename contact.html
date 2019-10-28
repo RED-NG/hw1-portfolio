@@ -24,14 +24,20 @@
     </header>
   </body>
   <section class="content">
-    <div>
-      <h1>HEllo</h1>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat ullam
-        reprehenderit, praesentium laboriosam possimus quia asperiores non fuga
-        voluptas obcaecati fugiat. Commodi assumenda eveniet, consectetur odit
-        animi officiis velit exercitationem.
-      </p>
-    </div>
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" placeholder="Your name" />
+      </div>
+      <div>
+        <label for="mail">E-mail:</label> 
+        <input type="email" id="mail" name="user_mail" placeholder="Your email" />
+      </div>
+      <div>
+        <label for="msg">Message:</label>
+        <textarea id="msg" placeholder="Write a message..." name="user_message"></textarea>
+      </div>
+      <input type="submit" class="form-control submit" value="SEND MESSAGE" />
+    </form>
+    <br>
   </section>
 </html>
