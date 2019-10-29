@@ -1,0 +1,3 @@
+[1028/143400.475:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[1028/143400.475:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[1028/143400.475:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)

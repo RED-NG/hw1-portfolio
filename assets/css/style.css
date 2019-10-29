@@ -6,14 +6,30 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
   color: #333;
-  background: #efefef;
+  background: #fed8b1;
 }
 
-.content div {
+.aboutme div {
   padding: 1em;
 }
 
-.content {
+hr {
+  border-color: black;
+}
+
+.aboutme {
+  border: 1px solid #333;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5em;
+  align-content: left;
+}
+
+.mrcat {
+  width: 200px;
+}
+
+.portfolio1 {
   border: 1px solid #333;
   width: 50%;
   margin: 0 auto;
@@ -51,8 +67,54 @@ a:hover {
   text-decoration: none;
 }
 
+.contactbar {
+  border: 1px solid black;
+  width: 555px;
+  margin: 0 auto;
+  margin-top: 5em;
+}
+
+.form {
+  width: 550px;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.contactbar {
+  background-color: white;
+  padding: 10px;
+}
+
+.submit {
+  background: #ff5722;
+  border-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.submit:hover {
+  color: black;
+  background-color: ff5722;
+  text-decoration: none;
+}
+
 .footer {
   height: 50px;
   margin-top: 10em;
-  background-color: green;
+  background-color: black;
+}
+
+.pictureofproject {
+  width: 200px;
+}
+
+.portfoliopictures {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
